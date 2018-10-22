@@ -1,0 +1,39 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.5.RELEASE)
+
+2018-10-17 12:03:59.278  INFO 25038 --- [           main] com.booking.BookingApplication           : Starting BookingApplication v0.0.1-SNAPSHOT on PTPC240 with PID 25038 (/home/chaitanya/chaitanya-workspace/workspace/Booking/target/BookingAPI-0.0.1-SNAPSHOT.jar started by chaitanya in /home/chaitanya/chaitanya-workspace/workspace/Booking/target)
+2018-10-17 12:03:59.282  INFO 25038 --- [           main] com.booking.BookingApplication           : No active profile set, falling back to default profiles: default
+2018-10-17 12:03:59.352  INFO 25038 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6d1e7682: startup date [Wed Oct 17 12:03:59 IST 2018]; root of context hierarchy
+2018-10-17 12:04:01.652  INFO 25038 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2018-10-17 12:04:01.685  INFO 25038 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-10-17 12:04:01.685  INFO 25038 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-10-17 12:04:01.697  INFO 25038 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-10-17 12:04:01.848  INFO 25038 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-10-17 12:04:01.848  INFO 25038 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2499 ms
+2018-10-17 12:04:01.906  INFO 25038 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-10-17 12:04:01.911  INFO 25038 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-10-17 12:04:01.911  INFO 25038 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-10-17 12:04:01.911  INFO 25038 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-10-17 12:04:01.911  INFO 25038 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-10-17 12:04:02.045  INFO 25038 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-17 12:04:02.212  INFO 25038 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6d1e7682: startup date [Wed Oct 17 12:03:59 IST 2018]; root of context hierarchy
+2018-10-17 12:04:02.343  INFO 25038 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.booking.BookingApplication.OnStartUp()
+2018-10-17 12:04:02.345  INFO 25038 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/slot/slot]}" onto public java.lang.String com.booking.controller.SlotController.sample()
+2018-10-17 12:04:02.349  INFO 25038 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-17 12:04:02.350  INFO 25038 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-17 12:04:02.377  INFO 25038 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-17 12:04:02.377  INFO 25038 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-17 12:04:02.497  INFO 25038 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-10-17 12:04:02.567  INFO 25038 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2018-10-17 12:04:02.571  INFO 25038 --- [           main] com.booking.BookingApplication           : Started BookingApplication in 3.925 seconds (JVM running for 4.894)
+2018-10-17 12:04:37.680  INFO 25038 --- [nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-10-17 12:04:37.681  INFO 25038 --- [nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-10-17 12:04:37.773  INFO 25038 --- [nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 92 ms
+2018-10-17 12:06:46.340  INFO 25038 --- [       Thread-3] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6d1e7682: startup date [Wed Oct 17 12:03:59 IST 2018]; root of context hierarchy
+2018-10-17 12:06:46.342  INFO 25038 --- [       Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
